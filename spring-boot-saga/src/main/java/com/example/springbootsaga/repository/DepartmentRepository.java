@@ -13,5 +13,6 @@ as the JPA gives features to directly interact with the database
 @Repository
 //Pass the entity and primary key type; <Department, Long>; JPA: Java Persistent API
 public interface DepartmentRepository extends JpaRepository<Department, Long> {
-    public Department findByDepartmentName(String departmentName);
+    public Department findByDepartmentNameIgnoreCase(String departmentName);
+    
 }
