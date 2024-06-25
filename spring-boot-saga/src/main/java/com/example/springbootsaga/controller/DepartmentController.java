@@ -3,6 +3,7 @@ package com.example.springbootsaga.controller;
 import java.util.*;
 
 import com.example.springbootsaga.entity.Department;
+import com.example.springbootsaga.error.DepartmentNotFoundException;
 import com.example.springbootsaga.service.DepartmentService;
 import jakarta.validation.Valid;
 import org.slf4j.Logger;
@@ -32,7 +33,7 @@ public class DepartmentController {
     }
 
     @GetMapping("/departments/{id}")
-    public Department fetchDepartmentById(@PathVariable("id") Long departmentId){
+    public Department fetchDepartmentById(@PathVariable("id") Long departmentId) throws DepartmentNotFoundException {
         return departmentService.fetchDepartmentById(departmentId);
     }
 
