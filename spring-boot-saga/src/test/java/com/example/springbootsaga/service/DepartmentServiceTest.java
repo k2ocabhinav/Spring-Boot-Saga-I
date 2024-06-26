@@ -28,6 +28,7 @@ class DepartmentServiceTest {
                 .departmentCode("IT-01")
                 .departmentId(1L)
                 .build();
+
         Mockito.when(departmentRepository.findByDepartmentNameIgnoreCase("IT"))
                 .thenReturn(department);
     }
