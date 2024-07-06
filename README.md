@@ -13,7 +13,6 @@ Welcome to **Spring-Boot-Saga**! 🌱 This repository is where I’m documenting
 - 📝 Adding logging, Project Lombok, and handling exceptions
 - ✅ Conducting unit and layer testing
 - ⚙️ Configuring application properties and profiles
-- 📊 Utilizing Spring Boot Actuator for monitoring
 
 Join me as I learn and build awesome Spring Boot applications! 🎉
 
