@@ -1,6 +1,8 @@
 # Spring-Boot-Saga
 
-Welcome to **Spring-Boot-Saga**! 🌱 This repository is where I’m documenting my journey of learning Spring Boot. Through this course, I’m diving into the fundamentals and advanced features of Spring Boot development. Here’s what I’m covering:
+Welcome to **Spring-Boot-Saga**! 🌱 This repository is where I’m documenting my journey of learning Spring Boot. Through this course, I’m diving into the fundamentals and advanced features of Spring Boot development. 
+
+Here’s what I’m covering:
 
 - 📖 Introduction to Spring Boot and its core concepts
 - 🔄 Understanding Dependency Injection and using Spring Initializr
